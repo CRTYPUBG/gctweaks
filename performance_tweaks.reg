@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000001
+"EnablePrefetcher"=dword:00000003
+"EnableSuperfetch"=dword:00000003
+"EnableBootTrace"=dword:00000000
+"SecondLevelDataCache"=dword:00000200
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpAckFrequency"=dword:00000001
+"TCPNoDelay"=dword:00000001
+"EnableTCPChimney"=dword:00000001
+"EnableRSS"=dword:00000001
